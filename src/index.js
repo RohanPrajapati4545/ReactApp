@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AuthProvider from './context/AuthContext';
 import { ToastContainer } from 'react-toastify';
-
+import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -23,7 +23,9 @@ root.render(
     // transition={Bounce}
     />
     <AuthProvider>
+     <BrowserRouter basename='/ReactProject'>
       <App />
+      </BrowserRouter>
     </AuthProvider>
   </React.StrictMode>
 );
