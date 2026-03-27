@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AuthProvider from './context/AuthContext';
 import { ToastContainer } from 'react-toastify';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <ToastContainer
+    <ToastContainer
       position="top-right"
       autoClose={2000}
       hideProgressBar={false}
@@ -23,9 +24,9 @@ root.render(
     // transition={Bounce}
     />
     <AuthProvider>
-     <BrowserRouter basename='/ReactProject'>
-      <App />
-      </BrowserRouter>
+      <HashRouter>
+        <App />
+      </HashRouter>
     </AuthProvider>
   </React.StrictMode>
 );
