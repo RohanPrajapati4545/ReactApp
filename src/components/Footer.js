@@ -24,9 +24,9 @@ const Footer = () => {
                 <strong>PHONE:</strong> +91 7415377427
               </p>
 
-              <p>
+             <NavLink to="https://github.com/RohanPrajapati4545/ReactApp/tree/new-branch"> <p>
                 <strong>EMAIL:</strong> rohanprajapati@gmail.com
-              </p>
+              </p></NavLink>
             </div>
 
             <div className="col-md-3">
