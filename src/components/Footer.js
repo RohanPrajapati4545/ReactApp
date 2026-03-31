@@ -24,9 +24,9 @@ const Footer = () => {
                 <strong>PHONE:</strong> +91 7415377427
               </p>
 
-             <NavLink to="https://github.com/RohanPrajapati4545/ReactApp/tree/new-branch"> <p>
+              <p>
                 <strong>EMAIL:</strong> rohanprajapati@gmail.com
-              </p></NavLink>
+              </p>
             </div>
 
             <div className="col-md-3">
@@ -105,7 +105,7 @@ const Footer = () => {
       </footer>
 
       <div className="bg-dark text-white text-center py-3">
-        Designed By <NavLink to="#" className='text-danger text-decoration-none' onClick={()=>navigate('https://github.com/RohanPrajapati4545')}>Rohan Prajapati</NavLink>
+        Designed By <NavLink to="https://github.com/RohanPrajapati4545" className='text-danger text-decoration-none' >Rohan Prajapati</NavLink>
       </div>
     </>
   )
