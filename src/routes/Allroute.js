@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Layout from './Layout'
 import Home from '../pages/Home'
 import About from '../pages/About'
@@ -14,7 +14,7 @@ import Product from '../components/Product'
 const Allroute = () => {
     return (
         <>
-            <BrowserRouter>
+          
                 <Routes>
                     <Route path='/' element={
                         <Layout>
@@ -67,7 +67,7 @@ const Allroute = () => {
                     </Route>
 
                 </Routes>
-            </BrowserRouter>
+            
         </>
     )
 }
