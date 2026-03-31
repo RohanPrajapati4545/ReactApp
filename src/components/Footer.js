@@ -104,7 +104,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="bg-dark text-white text-center py-3">
-        Designed By <NavLink to="https://github.com/RohanPrajapati4545" className='text-danger text-decoration-none' >Rohan-Prajapati</NavLink>
+        Designed By <a href="https://github.com/RohanPrajapati4545" target='_blank' className='text-danger text-decoration-none' >Rohan-Prajapati</a>
       </div>
     </>
   )
